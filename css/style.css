@@ -1,11 +1,14 @@
 body {
   padding-top: 70px;
   font-family: "Poppins", sans-serif;
-  background-color: #eff9ed;
+  /* background-color: #eff9ed;*/
 }
 
-@media screen and (max-width: 768px) {
+.resimSlider {
+  height: 500px;
+}
+
+/*@media screen and (max-width: 768px) {
   body {
     padding-top: 100px;
-  }
-}
+  }*/

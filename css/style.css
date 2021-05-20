@@ -7,6 +7,15 @@ body {
 .resimSlider {
   height: 500px;
 }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 1rem;
+}
 
 /*@media screen and (max-width: 768px) {
   body {

@@ -57,7 +57,22 @@
     </nav>
     
     <!---- LOGIN Sayfası---->
-
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <form action="action_page.php">
+                    <label for="kullanıci_adi">Kullanıcı Adı:</label>
+                    <input type="email" name="kullanici_adi" id="kullanici_adi" required>
+                    <br>
+                    <label for="password">Şifre:</label>
+                    <input type="password" name="password" id="password" required>
+                    <br>
+                    <input type="reset" value="Yenile">
+                    <input type="submit" formaction="action_page.php" formmethod="POST" value="Gönder">
+                </form>
+            </div>           
+        </div>
+    </div>
   
     
     <!----Footer --->

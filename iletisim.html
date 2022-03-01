@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    
+    <title>Kişisel Web Sayfam</title>
+
+  </head>
+
+  <!---  Head kapanış body açılış   --->
+  
+  <body>
+   
+    
+    <!---- navigation bar section ---->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark text-white fixed-top">
+        <a class="navbar-brand" href="#"> Kişisel Web Sayfam</a> 
+        <div class=container-fluid>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-2">
+                        <a class="nav-link text-white" href="hakkimda.html" target="_self" >Hakkımda</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link text-white" href="ozgecmis.html" target="_self" >Özgeçmiş</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link text-white" href="sehrim.html " target="_self" >Şehrim</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link text-white" href="mirasimiz.html" target="_self" >Mirasımız</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link text-white" href="ilgialanlarim.html" target="_self" >İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link text-white" href="login.html" target="_self" >Login</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link text-white" href="iletisim.html" target="_self" >İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---- İletisim Sayfası ---->
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <form action="results.html" method="GET">
+                    <textarea name="mesaj" id="mesaj" cols="30" rows="5">Görüşleriniz benim için önemli, benimle iletişime geçmek için lütfen aşağıdaki form bilgilerini doldurunuz</textarea>
+                    <br>
+                    <label for="adi">Adı:</label>
+                    <input type="text" name="adi" autofocus required><br>
+                    <label for="soyadi">Soyadı:</label>
+                    <input type="text" name="soyadi" autofocus required><br>
+                    <label for="mail_adresi">Mail adresi:</label>
+                    <input type="email" name="mail_adresi" id="mail_adresi" required>
+                    <br>
+                    <label for="yas">Yaşınız:</label>
+                    <input type="text" name="yas" pattern=[1-100]><br>
+                    <p>Cinsiyetinizi işaretleyiniz:</p>
+                    <input type="radio" name="cinsiyet" value="kadin" checked>Kadın<br>
+                    <input type="radio" name="cinsiyet" value="erkek">Erkek<br><br>
+                    <p>Hangi şehirde oturuyorsunuz?</p>
+                    <select name="sehirler" id="sehirler">
+                        <option value="aydin" selected>Aydın</option>
+                        <option value="izmir">İzmir</option>
+                        <option value="istanbul">İstanbul</option>
+                        <option value="ankara">Ankara</option>
+                        <option value="kocaeli">Kocaeli</option>
+                        <option value="sakarya">Sakarya</option>
+                    </select> <br><br>
+                    <p>Aydın ilinin ilçelerinden herhangi birinde bulunduysanız hangi ilçe/ilçelerde bulunduğunuzu işaretleyiniz</p>
+                    <input type="checkbox" name="ilce1" value="efeler">Efeler<br>
+                    <input type="checkbox" name="ilce2" value="nazilli">Nazilli<br>
+                    <input type="checkbox" name="ilce3" value="kocarlı">Koçarlı<br>
+                    <input type="checkbox" name="ilce4" value="soke">Söke<br>
+                    <input type="checkbox" name="ilce5" value="incirliova">İncirliova<br>
+                    <input type="checkbox" name="ilce6" value="didim">Didim<br>
+                    <input type="checkbox" name="ilce7" value="kusadasi">Kuşadası<br>
+                    <input type="checkbox" name="ilce8" value="cine">Çine<br>
+                    <input type="checkbox" name="ilce9" value="bozdogan">Bozdoğan<br>
+                    <input type="checkbox" name="ilce10" value="karacasu">Karacasu<br>
+                    <input type="checkbox" name="ilce11" value="kuyucak">Kuyucak<br>
+                    <input type="checkbox" name="ilce12" value="buharkent">Buharkent<br>
+                    <input type="checkbox" name="ilce13" value="yenipazar">Yenipazar<br>
+                    <input type="checkbox" name="ilce14" value="kosk">Köşk<br>
+                    <input type="checkbox" name="ilce15" value="germencik">Germencik<br>
+                    <input type="checkbox" name="ilce16" value="sultanhisar">Sultanhisar<br>
+                    <br>
+                    <p>Hangi üniversitede öğrenim gördünüz/görüyorsunuz?</p>
+                    <input type="text" list="universiteler">
+                    <datalist id="universiteler">
+                        <option value="adu">Aydın Adnan Menderes Üniversitesi</option>
+                        <option value="deu">Dokuz Eylül Üniversitesi</option>
+                        <option value="sau">Sakarya Üniversitesi</option>
+                        <option value="kou">Kocaeli Üniversitesi</option>
+                        <option value="itu">İstanbul Teknik Üniversitesi</option>
+                        <option value="odtu">Orta Doğu Teknik Üniversitesi</option>
+                    </datalist> <br> <br>
+                     Dosya eklentisi göndermek için:<input type="file" name="dosya" multiple><br>
+                     <br>
+                    <button type="reset">YENİLE</button>
+                    <button type="submit">GÖNDER</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+    <!----Footer ---->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> all rights belongs to Zeynep Göksoy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
